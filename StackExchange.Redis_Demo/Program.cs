@@ -12,7 +12,7 @@ namespace StackExchange.Redis_Demo
     {
         private static void Main(string[] args)
         {
-            RedisHelper redis = new RedisHelper(1);
+            RedisHelper redis = new RedisHelper(5);
 
             #region String
 
